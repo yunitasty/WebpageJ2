@@ -1,0 +1,52 @@
+/* Media query for small screens */
+@media (min-width: 400px) {
+  .navbar-logo-icon{
+    height: 24px;
+  }
+  .navbar-logo-text {
+    display: block;
+  }
+}
+
+@media (min-width:670px) {
+  .navbar-menu{
+    flex: 1 1 auto;
+    justify-content: center;
+    margin-right: 120px;
+  }
+  .navbar-menu button:last-child{
+    position: absolute;
+    right: 20px;
+  }
+}
+
+@media all and (max-width:670px){
+  .hero-carousel{
+    height: 85vh;
+  }
+  .hero-carousel .carousel-container .inner .carousel-subtitle{
+  font-size: 1.7rem;
+  }
+  .hero-carousel .carousel-container .inner .carousel-title{
+  font-size: 1.3rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 1.5rem;
+  }
+  .title-section h1{
+    font-size: 30px;
+  }
+  .title-section p{
+    font-size: 15px;
+    margin: 0 5px 30px 5px;
+  }
+  input{
+    width: 90%;
+  }
+  textarea{
+    width: 90%;
+  }
+  .contact-submit{
+    width: 90%;
+  }
+}
