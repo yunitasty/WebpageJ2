@@ -1,14 +1,8 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-body{
-  background: white;
-  margin: 0;
-}
-
-
 header {
   display: flex;
   justify-content: space-evenly;
@@ -95,7 +89,6 @@ header a ion-icon {
   position: relative;
   right: 3px;
 }
-
 .overlay{
 position: absolute;
 	 width: 100%;
